@@ -35,7 +35,7 @@ Now open your browser and point it to `http://localhost:8080` and rejoice. :)
 
 2. Permissions!
 
-  The Dockerfile creates a upsource user to run `upsource` without root permissions. This user has a `UID` of `2000`. Please make sure to add a user to your host system with this `UID` and allow him to read and write to `/var/lib/upsource`. The name of this host user in not important. (You can use a the user group, too. It has the `GID` of 2000 :)
+  The Dockerfile creates a upsource user to run `upsource` without root permissions. This user has a `UID` of `2000`. Please make sure to add a user to your host system with this `UID` and allow him to read and write to `/var/lib/upsource` and `/etc/upsource`. The name of this host user in not important. (You can use a the user group, too. It has the `GID` of 2000 :)
   
 3. Create container!
 
