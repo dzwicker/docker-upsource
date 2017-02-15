@@ -40,8 +40,8 @@ Now open your browser and point it to `http://localhost:8080` and rejoice. :)
 3. Create container!
 
   ```
-    docker create -t -i -p 127.0.0.1:8080:8080 \ 
-    	-v /var/lib/upsource:/var/lib/upsource \ 
+    docker create -t -i -p 127.0.0.1:8080:8080 \
+    	-v /var/lib/upsource:/var/lib/upsource \
     	-v /var/log/upsource:/var/log/upsource \
     	-v /etc/upsource:/usr/local/upsource/conf \
     	-v /tmp:/tmp \
